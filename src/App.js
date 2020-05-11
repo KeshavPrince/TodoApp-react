@@ -12,7 +12,8 @@ class App extends Component {
   }
   deletetodo = (id) => {
     console.log(id)
-  const newtodos = this.state.todos.filter(todo => {
+  const newtodos = this.state.todos.filter(todo => 
+    {
     return todo.id !== id
   });
   this.setState({

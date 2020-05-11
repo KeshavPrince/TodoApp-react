@@ -7,7 +7,10 @@ class AddTodo extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.AddTodo(this.state.content)
-        this.state.content = ''
+        this.setState({
+            content : ''
+        })
+        
     }
     handleChange = (e) => {
         this.setState({
