@@ -7,7 +7,7 @@ class App extends Component {
     todos : [
       {id : 1, content : 'Add Milks to can'},
       {id : 2, content : 'Go to Shopping'},
-      {id : 3, content : 'Meet Thala'}
+      {id : 3, content : 'Meet Thalaa'}
     ]
   }
   deletetodo = (id) => {
