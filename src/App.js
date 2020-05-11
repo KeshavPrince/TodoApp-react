@@ -5,7 +5,7 @@ import AddTodo from './AddTodo';
 class App extends Component {
   state = {
     todos : [
-      {id : 1, content : 'Add Milk to can'},
+      {id : 1, content : 'Add Milks to can'},
       {id : 2, content : 'Go to Shopping'},
       {id : 3, content : 'Meet Thala'}
     ]
